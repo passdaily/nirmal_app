@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "402432290516",
+    "firebase_url": "https://mimhs-parent-app.firebaseio.com",
+    "project_id": "mimhs-parent-app",
+    "storage_bucket": "mimhs-parent-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402432290516:android:eb0b973c8dd5f58f225541",
+        "android_client_info": {
+          "package_name": "info.passdaily.nirmala_convent_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402432290516-q8dn7h0sr4862qvkkk0q9lqabpafgb3e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAop_pytdQBoqYllj7hzZ2jENDIHsIIPn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402432290516-q8dn7h0sr4862qvkkk0q9lqabpafgb3e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402432290516:android:161c22c80eda842e",
+        "android_client_info": {
+          "package_name": "info.reign.mimschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402432290516-7ftmaejfg4s6cc01jute3e18a6pt8tp5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "info.reign.mimschool",
+            "certificate_hash": "30e765c7beaf427efae4252e65e8d52206a9a40d"
+          }
+        },
+        {
+          "client_id": "402432290516-q8dn7h0sr4862qvkkk0q9lqabpafgb3e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAop_pytdQBoqYllj7hzZ2jENDIHsIIPn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402432290516-q8dn7h0sr4862qvkkk0q9lqabpafgb3e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
