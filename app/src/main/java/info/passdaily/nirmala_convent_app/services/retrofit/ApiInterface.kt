@@ -1,6 +1,7 @@
 package info.passdaily.nirmala_convent_app.services.retrofit
 
 import info.passdaily.nirmala_convent_app.model.*
+
 import okhttp3.MultipartBody
 import okhttp3.RequestBody
 import okhttp3.ResponseBody
@@ -642,6 +643,23 @@ interface ApiInterface {
         @Query("StudentRollNo") StudentRollNo: Int
         //category
     ): Response<FeesDetailsModel>
+
+
+    ///http://holyapp.passdaily.in/PassDailyParentsApi/Fees/PayFeeStupGet?StudentId=741&ClassId=55
+    @GET("Fees/PayFeeStupGet")
+    suspend fun payFeesDetails(
+        @Query("StudentId") StudentId: Int,
+        @Query("ClassId") ClassId: Int
+        //category
+    ): Response<PayFeesModel>
+
+
+    @GET("Fees/FeesPaidDetailsForPrint")
+    suspend fun feesPaidDetails(
+        @Query("StudentId") StudentId: Int,
+        @Query("ReceiptId") ReceiptId: Int
+        //category
+    ): Response<FeesDetailPaidModel>
 
 
     ////Exam/ExamNameGet?ExamId=0
